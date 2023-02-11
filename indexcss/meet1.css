@@ -6,7 +6,7 @@ body {
 
 
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767.5px){
     .meet-img {
         margin: 30px auto 30px auto;
         display: block;
@@ -19,13 +19,13 @@ body {
         position: relative;
     }
     .hero1 {
-        width: 277px;
-        height: 157px;
+        width: 190px;
+        height: 147px;
         margin-right: 5px;
     }
     .hero2 {
-        width: 277px;
-        height: 157px;
+        width: 190px;
+        height: 147px;
         margin-left: 5px;
     }
 
@@ -215,6 +215,7 @@ body {
 
     .group5 {
         width: 100%;
+        height: 540px;
         display: flex;
         flex-direction: column;
     }
@@ -227,10 +228,8 @@ body {
     .footer {
         position: relative;
         top: -28px;
-        background-position: center; 
-        padding: 50px 1px;
-        margin: auto auto;
-        background: url('../assets/mobile/image-footer.jpg');
+        background-size: cover;
+        background-image: url('../assets/mobile/image-footer.jpg');
     }
     
     .button3 {
@@ -251,18 +250,20 @@ body {
         align-items: center;
         text-align: center;
         position: relative;
-        padding: 6% 6%;
-        gap: 20px;
+        padding: 10% 6%;
+        gap: 70px;
         z-index: 2;
     }
 
     .experience {
+        width: 327px;
         font-style: normal;
         font-weight: 900;
         font-size: 32px;
         color: #FAFAFA;
     }
     .stay {
+        width: 327px;
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
@@ -276,7 +277,7 @@ body {
 
 
 
-@media only screen and (min-width: 768px)and (max-width: 1439px){
+@media only screen and (min-width: 768px)and (max-width: 1439.5px){
     .meet-img {
         margin: 30px auto 30px auto;
         display: block;
@@ -489,6 +490,9 @@ body {
 
     .group5 {
         width: 100%;
+        height: 540px;
+        display: flex;
+        flex-direction: column;
     }
 
     .blue {
@@ -499,10 +503,8 @@ body {
     .footer {
         position: relative;
         top: -28px;
-        background-position: center; 
-        padding: 50px 1px;
-        margin: auto auto;
-        background: url('../assets/tablet/image-footer.jpg');
+        background-size: cover;
+        background-image: url('../assets/tablet/image-footer.jpg');
     }
     
     .button3 {
@@ -523,21 +525,23 @@ body {
         align-items: center;
         text-align: center;
         position: relative;
-        padding: 6% 6%;
-        gap: 20px;
-        z-index: 2;
+        padding: 75px;
+        gap: 30px;
+        z-index: 1;
     }
 
     .experience {
         width: 457px;
         font-style: normal;
         font-weight: 900;
-        font-size: 32px;
+        font-size: 40px;
         color: #FAFAFA;
     }
     .stay {
+        width: 457px;
         font-style: normal;
         font-weight: 500;
+        line-height: 26px;
         font-size: 18px;
         color: #FAFAFA;
         position: relative;
@@ -564,7 +568,7 @@ body {
         display: flex;
         justify-content: space-between;
         gap: 40px;
-        margin: 50px auto 50px auto;
+        margin: 50px auto 0px auto;
     }
 
     .plentyppl{
@@ -686,7 +690,7 @@ body {
 
 
     .group3 {
-        margin: 60px auto 40px auto;
+        margin: 10px auto 40px auto;
         width: 56px;
         height: 140px;
         display: flex;
@@ -726,7 +730,7 @@ body {
         display: flex;
         justify-content: center;
         flex-direction: row;
-        margin: 60px 40px 60px 40px;
+        margin: 30px 40px 30px 40px;
         height: 242px;
         gap: 30px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -747,7 +751,7 @@ body {
         text-align: center;
         position: relative;
         gap: 20px;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
     .built {
         font-style: normal;
@@ -774,6 +778,9 @@ body {
 
     .group5 {
         width: 100%;
+        height: 390px;
+        display: flex;
+        flex-direction: column;
     }
 
     .blue {
@@ -784,10 +791,8 @@ body {
     .footer {
         position: relative;
         top: -68px;
-        background-position: center; 
-        padding: 50px 1px;
-        margin: auto auto;
-        background: url('../assets/desktop/image-footer.jpg');
+        background-size: cover;
+        background-image: url('../assets/desktop/image-footer.jpg');
     }
     
     .button3 {
@@ -808,9 +813,9 @@ body {
         margin: auto;
         text-align: left;
         position: relative;
-        padding: 6% 6%;
+        padding: 107px;
         gap: 20px;
-        z-index: 2;
+        z-index: 1;
     }
 
     .experience {
